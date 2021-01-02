@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Perfil
-permalink: /about/
+permalink: /Perfil/
 ---
 
 ## Información General

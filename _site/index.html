@@ -38,29 +38,59 @@
           </div>
 
           <nav>
-            <a href="/">Blog</a>
-            <a href="/about">About</a>
+            <a href="/">Inicio</a>
+            <a href="/Blog">Blog</a>
+            <a href="/Perfil">Perfil</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="posts">
+      <div class="home-recent-articles" >
+  <h2>Publicaciones recientes</h2>
   
-    <article class="post">
-
-      <h1><a href="/Hello-World/">You're up and running!</a></h1>
-
-      <div class="entry">
-        <p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
-
-      </div>
-
-      <a href="/Hello-World/" class="read-more">Read More</a>
-    </article>
+  <div>
+      <a href="/Hello-World/">You're up and running!</a>
+  </div>
+  
+  <div>
+      <a href="/Hello-World-2/">You're up and running!</a>
+  </div>
+  
+  <div>
+      <a href="/Hello-World-1/">You're up and running!</a>
+  </div>
   
 </div>
+
+<div class="home-images">
+	<h2>Gestión de Código Fuente</h2>
+	<div class="home-images">
+		<img src="/images/home/git.webp" title="Git" name="Git" />
+		<img src="/images/home/gitflow.webp" title="Git Flow" name="Git Flow" />
+		<img src="/images/home/gitlab.webp" title="GitLab" name="GitLab" />
+	</div>
+
+	<h2>Configuración de Entornos</h2>
+	<div class="home-images">
+		<img src="/images/home/docker.webp" title="Docker" name="Docker" />
+		<img src="/images/home/vagrant.webp" title="Vagrant" name="Vagrant" />
+	</div>
+
+	<h2>Control de Cambios</h2>
+	<div class="home-images">
+		<img src="/images/home/jira.webp" title="Jira" name="Jira" />
+		<img src="/images/home/redmine.webp" title="Redmine" name="Redmine" />
+		<img src="/images/home/mantis.webp" title="Mantis" name="Mantis" />
+	</div>
+
+	<h2>Construcción, Liberación y Despliegue</h2>
+	<div class="home-images">
+		<img src="/images/home/jenkins.webp" title="Jenkins" name="Jenkins" />
+	</div>
+</div>
+
     </div>
 
     <div class="wrapper-footer">
@@ -71,6 +101,7 @@
 
 
 <a href="https://github.com/jsgiraldoh"><i class="svg-icon github"></i></a>
+<a href="https://hub.docker.com/u/infraestructuratest"><i class="svg-icon dockerhub"></i></a>
 
 <a href="https://www.linkedin.com/in/jsgiraldoh"><i class="svg-icon linkedin"></i></a>
 
@@ -79,11 +110,31 @@
 
 <a href="https://youtube.com/channel/UCEg321NoigTkiogOH9wS0-Q"><i class="svg-icon youtube"></i></a>
 
+
         </footer>
       </div>
     </div>
 
     
 
+    <a id="scroll-top">Ir al Inicio</a>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).scroll(function  () {
+    if($(this).scrollTop()>250){
+      $('#scroll-top').fadeIn();
+    }
+    else{
+      $('#scroll-top').fadeOut();
+    }
+  })
+  $(document).ready(function () {
+      $('#scroll-top').click(function  () {
+        var $body = $("html, body");
+        $body.stop().animate({scrollTop:0}, '500', 'swing');
+      });
+  });
+</script>
   </body>
 </html>

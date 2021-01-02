@@ -2,17 +2,38 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+<div class="home-recent-articles" >
+  <h2>Publicaciones recientes</h2>
+  {% for post in site.posts limit: 5%}
+  <div>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </div>
   {% endfor %}
+</div>
+
+<div class="home-images">
+	<h2>Gestión de Código Fuente</h2>
+	<div class="home-images">
+		<img src="{{ site.baseurl }}/images/home/git.webp" title="Git" name="Git" />
+		<img src="{{ site.baseurl }}/images/home/gitflow.webp" title="Git Flow" name="Git Flow" />
+		<img src="{{ site.baseurl }}/images/home/gitlab.webp" title="GitLab" name="GitLab" />
+	</div>
+
+	<h2>Configuración de Entornos</h2>
+	<div class="home-images">
+		<img src="{{ site.baseurl }}/images/home/docker.webp" title="Docker" name="Docker" />
+		<img src="{{ site.baseurl }}/images/home/vagrant.webp" title="Vagrant" name="Vagrant" />
+	</div>
+
+	<h2>Control de Cambios</h2>
+	<div class="home-images">
+		<img src="{{ site.baseurl }}/images/home/jira.webp" title="Jira" name="Jira" />
+		<img src="{{ site.baseurl }}/images/home/redmine.webp" title="Redmine" name="Redmine" />
+		<img src="{{ site.baseurl }}/images/home/mantis.webp" title="Mantis" name="Mantis" />
+	</div>
+
+	<h2>Construcción, Liberación y Despliegue</h2>
+	<div class="home-images">
+		<img src="{{ site.baseurl }}/images/home/jenkins.webp" title="Jenkins" name="Jenkins" />
+	</div>
 </div>

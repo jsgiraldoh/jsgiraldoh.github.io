@@ -41,8 +41,9 @@
           </div>
 
           <nav>
-            <a href="/">Blog</a>
-            <a href="/about">About</a>
+            <a href="/">Inicio</a>
+            <a href="/Blog">Blog</a>
+            <a href="/Perfil">Perfil</a>
           </nav>
         </header>
       </div>
@@ -71,6 +72,7 @@
 
 
 <a href="https://github.com/jsgiraldoh"><i class="svg-icon github"></i></a>
+<a href="https://hub.docker.com/u/infraestructuratest"><i class="svg-icon dockerhub"></i></a>
 
 <a href="https://www.linkedin.com/in/jsgiraldoh"><i class="svg-icon linkedin"></i></a>
 
@@ -79,11 +81,31 @@
 
 <a href="https://youtube.com/channel/UCEg321NoigTkiogOH9wS0-Q"><i class="svg-icon youtube"></i></a>
 
+
         </footer>
       </div>
     </div>
 
     
 
+    <a id="scroll-top">Ir al Inicio</a>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).scroll(function  () {
+    if($(this).scrollTop()>250){
+      $('#scroll-top').fadeIn();
+    }
+    else{
+      $('#scroll-top').fadeOut();
+    }
+  })
+  $(document).ready(function () {
+      $('#scroll-top').click(function  () {
+        var $body = $("html, body");
+        $body.stop().animate({scrollTop:0}, '500', 'swing');
+      });
+  });
+</script>
   </body>
 </html>

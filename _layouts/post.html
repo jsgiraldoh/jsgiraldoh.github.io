@@ -1,5 +1,6 @@
 ---
 layout: default
+sidebar: yes
 ---
 
 <article class="post">
@@ -10,8 +11,9 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Publicado el {{ page.date | date: "%d/%m/%Y" }}
   </div>
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 
   {% include disqus.html %}
 </article>
