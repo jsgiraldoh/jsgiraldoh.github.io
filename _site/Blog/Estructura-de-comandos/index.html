@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
+    <title>Estructura de comandos – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,14 +9,20 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Ingeniero de Sistemas y Computación">
-    <meta property="og:description" content="Ingeniero de Sistemas y Computación" />
+    <meta name="description" content="
+  Ayuda de docker:
+
+" />
+    <meta property="og:description" content="
+  Ayuda de docker:
+
+" />
     
     <meta name="author" content="Johan Giraldo" />
 
     
-    <meta property="og:title" content="Blog" />
-    <meta property="twitter:title" content="Blog" />
+    <meta property="og:title" content="Estructura de comandos" />
+    <meta property="twitter:title" content="Estructura de comandos" />
     
 
     <!--[if lt IE 9]>
@@ -50,58 +56,79 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
-
-  <h1>Blog</h1>
+      <article class="post">
+  <h1>Estructura de comandos</h1>
 
   <div class="entry">
-    <div class="posts">
-  
-    <article class="post">
-
-      <h1><a href="/Blog/Instalar-Docker-Engine-en-Ubuntu/">Instalar Docker Engine en Ubuntu</a></h1>
-
-      <div class="entry">
-        <h2 id="1-realizar-una-actualización">1. Realizar una actualización.</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
-</code></pre></div></div>
-
-      </div>
-
-      <a href="/Blog/Instalar-Docker-Engine-en-Ubuntu/" class="read-more">LEER MÁS</a>
-    </article>
-  
-    <article class="post">
-
-      <h1><a href="/Blog/Estructura-de-comandos/">Estructura de comandos</a></h1>
-
-      <div class="entry">
-        <ul>
+    <ul>
   <li>Ayuda de docker:</li>
 </ul>
 
-      </div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker <span class="nt">--help</span> | more
+</code></pre></div></div>
 
-      <a href="/Blog/Estructura-de-comandos/" class="read-more">LEER MÁS</a>
-    </article>
-  
-    <article class="post">
+<p><br />
+<img class="img-center" src="/images/estructura-de-comandos/docker-help.png" title="Docker-help" name="Docker-help" />
+<br /></p>
 
-      <h1><a href="/Blog/Qué-es-Docker/">¿Qué es Docker?</a></h1>
-
-      <div class="entry">
-        <ul>
-  <li>Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones. Docker le permite separar sus aplicaciones de su infraestructura para que pueda entregar el software rápidamente. Con Docker, puede administrar su infraestructura de la misma manera que administra sus aplicaciones. Al aprovechar las metodologías de Docker para enviar, probar e implementar código rápidamente, puede reducir significativamente el retraso entre escribir código y ejecutarlo en producción.</li>
+<ul>
+  <li>Ayuda del módulo sistema de docker</li>
 </ul>
 
-      </div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker system <span class="nt">--help</span>
+</code></pre></div></div>
 
-      <a href="/Blog/Qué-es-Docker/" class="read-more">LEER MÁS</a>
-    </article>
-  
-</div>
+<ul>
+  <li>Información del sistema en docker</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker system info
+</code></pre></div></div>
+
+<ul>
+  <li>Información de los recursos de docker</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker system <span class="nb">df</span>
+</code></pre></div></div>
+
+<h3 id="referencias">Referencias</h3>
+
+<ul>
+  <li>Disponible en: <a href="https://mmorejon.io/curso/integrando-docker-a-su-infaestructura-y-servicios">Integrando docker a su infraestructura y servicios</a></li>
+</ul>
+
+<h2 id="issuu">ISSUU</h2>
+
+<p>Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.</p>
+
+<ul>
+  <li><a href="https://issuu.com/johanse/docs/seccion-3-estructura-de-comandos.pptx">Estructura de comandos</a></li>
+</ul>
 
   </div>
+
+  <div class="date">
+    Publicado el 03/01/2020
+  </div>
+  <!--<a href="" class="read-more">Read More</a>-->
+  <!--
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = 'jsgiraldoh';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+-->
 </article>
 
     </div>
