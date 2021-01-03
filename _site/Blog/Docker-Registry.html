@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Docker Registry – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="¿Qué es Docker Registry?
+" />
+    <meta property="og:description" content="¿Qué es Docker Registry?
+" />
+    
+    <meta name="author" content="Johan Giraldo" />
+
+    
+    <meta property="og:title" content="Docker Registry" />
+    <meta property="twitter:title" content="Docker Registry" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Johan Giraldo - Ingeniero de Sistemas y Computación" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars.githubusercontent.com/jsgiraldoh" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Johan Giraldo</a></h1>
+            <p class="site-description">Ingeniero de Sistemas y Computación</p>
+          </div>
+
+          <nav>
+            <a href="/">Inicio</a>
+            <a href="/Blog">Blog</a>
+            <a href="/Perfil">Perfil</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Docker Registry</h1>
+
+  <div class="entry">
+    <h2 id="qué-es-docker-registry">¿Qué es Docker Registry?</h2>
+
+<ul>
+  <li>El Docker registry es una aplicación del lado del servidor sin estado y altamente escalable que almacena y le permite distribuir imágenes de Docker.</li>
+</ul>
+
+<p><strong>¿Por qué usarlo?</strong></p>
+
+<p>Debe usar el Registry si desea:</p>
+
+<ul>
+  <li>
+    <p>Controlar estrictamente dónde se almacenan sus imágenes.</p>
+  </li>
+  <li>
+    <p>Poseer completamente su canal de distribución de imágenes.</p>
+  </li>
+  <li>
+    <p>Integre el almacenamiento y la distribución de imágenes en su flujo de trabajo de desarrollo interno.</p>
+  </li>
+</ul>
+
+<h2 id="alternativas">Alternativas</h2>
+
+<ul>
+  <li>Se recomienda a los usuarios que buscan una solución lista para usar que no requiera mantenimiento, que se dirijan al Docker Hub, que proporciona un registro alojado de uso gratuito, además de características adicionales (cuentas de la organización, compilaciones automatizadas y más).</li>
+</ul>
+
+<h2 id="comandos-básicos">Comandos básicos</h2>
+
+<p>Corra un contenedor con la imagen de registry</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-d</span> <span class="nt">-p</span> 5000:5000 <span class="nt">--name</span> registry registry:2
+</code></pre></div></div>
+
+<p>Extraiga (o cree) alguna imagen de Docker hub</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull ubuntu
+</code></pre></div></div>
+
+<p>Etiquete la imagen para que apunte a su registry</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker image tag ubuntu localhost:5000/myfirstimage
+</code></pre></div></div>
+
+<p>Envíelo al contendor registry</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker push localhost:5000/myfirstimage
+</code></pre></div></div>
+
+<p>Descárguelo del contenedor registry</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull localhost:5000/myfirstimage
+</code></pre></div></div>
+
+<h3 id="referencias">Referencias</h3>
+
+<ul>
+  <li>Registro docker. Disponible en: <a href="https://docs.docker.com/registry/">Registro docker</a></li>
+</ul>
+
+<h2 id="issuu">ISSUU</h2>
+
+<p>Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.</p>
+
+<ul>
+  <li><a href="https://issuu.com/johanse/docs/seccion-14-docker-registry.pptx">Docker Registry</a></li>
+</ul>
+
+  </div>
+
+  <div class="date">
+    Publicado el 03/01/2020
+  </div>
+  <!--<a href="" class="read-more">Read More</a>-->
+  <!--
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = 'jsgiraldoh';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+-->
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/jsgiraldoh"><i class="svg-icon github"></i></a>
+<a href="https://hub.docker.com/u/infraestructuratest"><i class="svg-icon dockerhub"></i></a>
+
+<a href="https://www.linkedin.com/in/jsgiraldoh"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="https://www.twitter.com/jsgiraldoh"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/channel/UCEg321NoigTkiogOH9wS0-Q"><i class="svg-icon youtube"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+    <a id="scroll-top">Ir al Inicio</a>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).scroll(function  () {
+    if($(this).scrollTop()>250){
+      $('#scroll-top').fadeIn();
+    }
+    else{
+      $('#scroll-top').fadeOut();
+    }
+  })
+  $(document).ready(function () {
+      $('#scroll-top').click(function  () {
+        var $body = $("html, body");
+        $body.stop().animate({scrollTop:0}, '500', 'swing');
+      });
+  });
+</script>
+  </body>
+</html>
