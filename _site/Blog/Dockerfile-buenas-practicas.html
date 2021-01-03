@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Johan Giraldo – Ingeniero de Sistemas y Computación</title>
+    <title>Dockerfile buenas prácticas – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,11 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Ingeniero de Sistemas y Computación">
-    <meta property="og:description" content="Ingeniero de Sistemas y Computación" />
+    <meta name="description" content="Buenas prácticas en Dockerfile
+" />
+    <meta property="og:description" content="Buenas prácticas en Dockerfile
+" />
     
     <meta name="author" content="Johan Giraldo" />
 
+    
+    <meta property="og:title" content="Dockerfile buenas prácticas" />
+    <meta property="twitter:title" content="Dockerfile buenas prácticas" />
     
 
     <!--[if lt IE 9]>
@@ -47,61 +52,68 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <div class="home-recent-articles" >
-  <h2>Publicaciones recientes</h2>
-  
-  <div>
-      <a href="/Blog/Instalar-Docker-Engine-en-Ubuntu/">Instalar Docker Engine en Ubuntu</a>
+      <article class="post">
+  <h1>Dockerfile buenas prácticas</h1>
+
+  <div class="entry">
+    <h2 id="buenas-prácticas-en-dockerfile">Buenas prácticas en Dockerfile</h2>
+
+<ul>
+  <li>
+    <p>Evitar instalar paquetes no necesarios.</p>
+  </li>
+  <li>
+    <p>Cada contenedor debe cumplir solo un propósito.</p>
+  </li>
+  <li>
+    <p>Minimizar el número de capas.</p>
+  </li>
+  <li>
+    <p>Escribir líneas cortas de instrucciones y utilizar \ para mejorar entendimiento.</p>
+  </li>
+  <li>
+    <p>Versionado.</p>
+  </li>
+</ul>
+
+<h3 id="referencias">Referencias</h3>
+
+<ul>
+  <li>Disponible en: <a href="https://mmorejon.io/curso/integrando-docker-a-su-infaestructura-y-servicios">Integrando docker a su infraestructura y servicios</a></li>
+</ul>
+
+<h2 id="issuu">ISSUU</h2>
+
+<p>Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.</p>
+
+<ul>
+  <li><a href="seccion-6-dockerfile-buenas-practicas.pptx">Dockerfile buenas prácticas</a></li>
+</ul>
+
   </div>
-  
-  <div>
-      <a href="/Blog/Imágenes-y-contenedores/">Imágenes y contenedores</a>
+
+  <div class="date">
+    Publicado el 03/01/2020
   </div>
-  
-  <div>
-      <a href="/Blog/Estructura-de-comandos/">Estructura de comandos</a>
-  </div>
-  
-  <div>
-      <a href="/Blog/Dockerfile">Dockerfile</a>
-  </div>
-  
-  <div>
-      <a href="/Blog/Dockerfile-buenas-practicas">Dockerfile buenas prácticas</a>
-  </div>
-  
-  <div>
-      <a href="/Blog/Qué-es-Docker/">¿Qué es Docker?</a>
-  </div>
-  
+  <!--<a href="" class="read-more">Read More</a>-->
+  <!--
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = 'jsgiraldoh';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-<div class="home-images">
-	<h2>Gestión de Código Fuente</h2>
-	<div class="home-images">
-		<img src="/images/home/git.webp" title="Git" name="Git" />
-		<img src="/images/home/gitflow.webp" title="Git Flow" name="Git Flow" />
-		<img src="/images/home/gitlab.webp" title="GitLab" name="GitLab" />
-	</div>
-
-	<h2>Configuración de Entornos</h2>
-	<div class="home-images">
-		<img src="/images/home/docker.webp" title="Docker" name="Docker" />
-		<img src="/images/home/vagrant.webp" title="Vagrant" name="Vagrant" />
-	</div>
-
-	<h2>Control de Cambios</h2>
-	<div class="home-images">
-		<img src="/images/home/jira.webp" title="Jira" name="Jira" />
-		<img src="/images/home/redmine.webp" title="Redmine" name="Redmine" />
-		<img src="/images/home/mantis.webp" title="Mantis" name="Mantis" />
-	</div>
-
-	<h2>Construcción, Liberación y Despliegue</h2>
-	<div class="home-images">
-		<img src="/images/home/jenkins.webp" title="Jenkins" name="Jenkins" />
-	</div>
-</div>
+-->
+</article>
 
     </div>
 
