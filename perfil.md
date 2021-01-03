@@ -28,7 +28,7 @@ Armenia | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">CEH:</td>
-			<td class="profile-table-info"><a href="https://aspen.eccouncil.org/" target="_blank"><img src="{{ site.baseurl }}/images/CEH-logo.jpg" title="Certified Ethical Hacker" name="Certified Ethical Hacker" style="height: 170px;"/></a>
+			<td class="profile-table-info"><a href="https://aspen.eccouncil.org/" target="_blank"><img src="{{ site.baseurl }}/images/ceh/CEH-logo.jpg" title="Certified Ethical Hacker" name="Certified Ethical Hacker" style="height: 170px;"/></a>
 			</td>
 		</tr>
 	</tbody>
