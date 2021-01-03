@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Blog Aprende Docker en Español
 permalink: /Blog/
 ---
 
