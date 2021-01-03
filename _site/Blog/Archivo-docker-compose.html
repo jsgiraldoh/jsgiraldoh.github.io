@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Instalar Docker Compose – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
+    <title>Archivo docker-compose – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,16 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Ejecute este comando para descargar la versión estable actual de Docker Compose:
+    <meta name="description" content="Crear la carpeta para el proyecto
 " />
-    <meta property="og:description" content="Ejecute este comando para descargar la versión estable actual de Docker Compose:
+    <meta property="og:description" content="Crear la carpeta para el proyecto
 " />
     
     <meta name="author" content="Johan Giraldo" />
 
     
-    <meta property="og:title" content="Instalar Docker Compose" />
-    <meta property="twitter:title" content="Instalar Docker Compose" />
+    <meta property="og:title" content="Archivo docker-compose" />
+    <meta property="twitter:title" content="Archivo docker-compose" />
     
 
     <!--[if lt IE 9]>
@@ -53,28 +53,45 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>Instalar Docker Compose</h1>
+  <h1>Archivo docker-compose</h1>
 
   <div class="entry">
-    <p>Ejecute este comando para descargar la versión estable actual de Docker Compose:</p>
+    <p>Crear la carpeta para el proyecto</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>curl –L <span class="s2">"https://github.com/docker/compose/releases/download/1.25.5/docker-compose-</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-s</span><span class="si">)</span><span class="s2">-</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-m</span><span class="si">)</span><span class="s2">"</span> <span class="nt">-o</span> /usr/local/bin/docker-compose
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>proxy
 </code></pre></div></div>
 
-<p>Aplique permisos ejecutables al binario</p>
+<p>Crear y editar el archivo Compose</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo chmod</span> +x /usr/local/bin/docker-compose
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim docker-compose.yml
 </code></pre></div></div>
 
-<p>Probar la instalación</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>version: <span class="s1">'3'</span>
+services:
+  web:
+    image: dockercloud/hello-world
+  lb:
+    image: dockercloud/haproxy
+    links:
+      - web
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
+</code></pre></div></div>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose <span class="nt">--version</span>
+<p>Utilizar los siguientes comandos:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose up –d
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose ps
 </code></pre></div></div>
 
 <h3 id="referencias">Referencias</h3>
 
 <ul>
-  <li>Instalar docker compose. Disponible en: <a href="https://docs.docker.com/compose/install/">Instalar docker compose</a></li>
+  <li>Disponible en: <a href="https://mmorejon.io/curso/integrando-docker-a-su-infaestructura-y-servicios">Integrando docker a su infraestructura y servicios</a></li>
 </ul>
 
 <h2 id="issuu">ISSUU</h2>
@@ -82,7 +99,7 @@
 <p>Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.</p>
 
 <ul>
-  <li><a href="https://issuu.com/johanse/docs/seccion-11-instalar-docker-compose.pptx">Instalar Docker Compose</a></li>
+  <li><a href="https://issuu.com/johanse/docs/seccion-12-archivo-docker-compose.pptx">Archivo docker-compose</a></li>
 </ul>
 
   </div>

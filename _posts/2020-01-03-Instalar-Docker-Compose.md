@@ -3,19 +3,19 @@ layout: post
 title: Instalar Docker Compose
 permalink: /Blog/Instalar-Docker-Compose/
 ---
-1. Ejecute este comando para descargar la versión estable actual de Docker Compose:
+Ejecute este comando para descargar la versión estable actual de Docker Compose:
 
 ```
 sudo curl –L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-2. Aplique permisos ejecutables al binario
+Aplique permisos ejecutables al binario
 
 ```
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-3. Probar la instalación
+Probar la instalación
 
 ```
 docker-compose --version
