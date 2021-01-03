@@ -23,4 +23,4 @@ permalink: /Blog/Dockerfile-buenas-practicas
 
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
-* [Dockerfile buenas prácticas](seccion-6-dockerfile-buenas-practicas.pptx)
+* [Dockerfile buenas prácticas](https://issuu.com/johanse/docs/seccion-6-dockerfile-buenas-practicas.pptx)
