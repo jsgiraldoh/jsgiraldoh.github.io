@@ -49,6 +49,11 @@ Y por último debes conocer del diseño UML, diseño de patrones y tácticas arq
 
 Se que son muchas cosas, pero tranquil@s, trata de disfrutar cada proyecto y trabajo en el que te encuentres poco a poco irás descubriendo las tecnologías, no te desesperes como yo, disfrutemos de este proceso...
 
+## Raspberry Pi y Docker
+
+```
+https://collabnix.com/
+```
 
 ## Video
 
