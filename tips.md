@@ -39,6 +39,17 @@ https://mmorejon.io/
 https://learndevopsnow.wordpress.com/
 ```
 
+Además, de las tecnologías anteriormente mencionadas, también es importante que tengas bases en el desarrollo de software. En ocasiones necesitarás desarrollar servicios, entender cómo funciona o realizar un implementación.
+No importa el lenguaje que manejes, lo importante es que tengas claros los conceptos y los puedas llevar a otro lenguaje de programación.
+Ahora los lenguajes de programación más populares, son los lenguajes interpretados, dinámicos y multiplataforma, como por ejemplo **_Python_**.
+
+Otros elementos que me parecen importantes mencionar, son los conocimientos en la pila **_TCP/IP_**, si conoces cómo se transportan los datos y cómo se comportan las redes. Podrás implementar un diseño de red física o cloud de tal forma, que se adapte a la implementación de tu servicio.
+Para finalizar, es importante que tengas conocimientos sobre las diferentes bases de datos que se utilizan en el mercado tanto **_SQL_** como **_NOSQL_** y además tener clara las diferencias que abarcan las diferentes sentencias; De tal forma que si necesitas comunicarte con un administrador de base de datos, lo puedas hacer.
+Y por último debes conocer del diseño UML, diseño de patrones y tácticas arquitectónicas, de tal manera que puedas proponer una buena solución dependiendo de los requerimientos y recursos (hardware) para implementar tu servicio.
+
+Se que son muchas cosas, pero tranquil@s, trata de disfrutar cada proyecto y trabajo en el que te encuentres poco a poco irás descubriendo las tecnologías, no te desesperes como yo, disfrutemos de este proceso...
+
+
 ## Video
 
 Te recomiendo que veas este video, podrás entender mucho de los proyectos de cloud computing y podrás enterarte de nuevas tecnologías.
