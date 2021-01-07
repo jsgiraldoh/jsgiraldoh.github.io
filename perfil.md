@@ -78,7 +78,7 @@ Armenia | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
-			<td class="profile-table-info">2020 - actualidad</td>
+			<td class="profile-table-info">jun. 2020 - actualidad</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
