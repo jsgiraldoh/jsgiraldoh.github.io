@@ -62,6 +62,19 @@ Armenia | Colombia
 <table class="profile-table">
 	<tbody>
 		<tr>
+			<td class="profile-table-header">Quindío Tech</td>
+			<td class="profile-table-info"><a href="https://www.meetup.com/es/QuindioTech/" target="_blank">Miembro</a>
+			<br>
+			Miembro
+			<br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
 			<td class="profile-table-header">Comunidad Hack The Box Colombia:</td>
 			<td class="profile-table-info"><a href="https://www.hackthebox.eu/" target="_blank">Participante</a>
 			<br>
