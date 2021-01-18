@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tips – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
+    <title>Instalar Docker Compose – Johan Giraldo – Ingeniero de Sistemas y Computación</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,14 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Ingeniero de Sistemas y Computación">
-    <meta property="og:description" content="Ingeniero de Sistemas y Computación" />
+    <meta name="description" content="Ejecute este comando para descargar la versión estable actual de Docker Compose:
+" />
+    <meta property="og:description" content="Ejecute este comando para descargar la versión estable actual de Docker Compose:
+" />
     
     <meta name="author" content="Johan Giraldo" />
 
     
-    <meta property="og:title" content="Tips" />
-    <meta property="twitter:title" content="Tips" />
+    <meta property="og:title" content="Instalar Docker Compose" />
+    <meta property="twitter:title" content="Instalar Docker Compose" />
     
 
     <!--[if lt IE 9]>
@@ -64,8 +66,8 @@
 
  		ga('create', 'GTM-PMGL626', 'auto');
  		ga('send', 'pageview', {
- 		  'page': '/Tips/',
- 		  'title': 'Tips'
+ 		  'page': '/Blog/Instalar-Docker-Compose/',
+ 		  'title': 'Instalar Docker Compose'
  		});
  	</script>
  	<!-- End Google Analytics -->
@@ -95,69 +97,77 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
+      <article class="post">
+  <h1>Instalar Docker Compose</h1>
 
-  <h1>Tips</h1>
+	<div class="date">
+      Publicado el 12/01/2021
+      
+   	</div>
+    <span class="reading-time" title="Estimated read time">
+    Tiempo estimado de lectura: 
+  
+  
+    1 minuto
+  
+</span>
 
-  <div class="entry">
-    <p>Hola, no te preocupes si no tienes una computadora con muchos recursos para practicar; puedes entrar al siguiente enlace con tu cuenta de <a href="/Blog/Docker-hub">Docker hub</a>.</p>
+  	<div class="entry">
+    	<p>Ejecute este comando para descargar la versión estable actual de Docker Compose:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://labs.play-with-docker.com/
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>curl –L <span class="s2">"https://github.com/docker/compose/releases/download/1.25.5/docker-compose-</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-s</span><span class="si">)</span><span class="s2">-</span><span class="si">$(</span><span class="nb">uname</span> <span class="nt">-m</span><span class="si">)</span><span class="s2">"</span> <span class="nt">-o</span> /usr/local/bin/docker-compose
 </code></pre></div></div>
 
-<p>Como podemos observar en el siguiente link:</p>
+<p>Aplique permisos ejecutables al binario</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://roadmap.sh/devops
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo chmod</span> +x /usr/local/bin/docker-compose
 </code></pre></div></div>
 
-<p>Son muchos los conocimientos que debemos abarcar y comprender para transitar esta carrera <strong><em>DevOps</em></strong>. Pero no te preocupes, poco a poco con consistencia lo puedes lograr, yo aún estoy transitando este camino, no soy muy experto, pero puedo compartirte los recursos de los cuales yo me apoyo para aprender las diferentes tecnologías.</p>
+<p>Probar la instalación</p>
 
-<h2 id="linux">Linux:</h2>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.usuarioroot.com/
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose <span class="nt">--version</span>
 </code></pre></div></div>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://issuu.com/luixip
-</code></pre></div></div>
+<h3 id="referencias">Referencias</h3>
 
-<h2 id="docker-y-kubernetes">Docker y Kubernetes:</h2>
+<ul>
+  <li>Instalar docker compose. Disponible en: <a href="https://docs.docker.com/compose/install/">Instalar docker compose</a></li>
+</ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://mmorejon.io/
-</code></pre></div></div>
+<h2 id="issuu">ISSUU</h2>
 
-<h2 id="jenkins">Jenkins:</h2>
+<p>Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://learndevopsnow.wordpress.com/
-</code></pre></div></div>
+<ul>
+  <li><a href="https://issuu.com/johanse/docs/seccion-11-instalar-docker-compose.pptx">Instalar Docker Compose</a></li>
+</ul>
 
-<p>Además, de las tecnologías anteriormente mencionadas, también es importante que tengas bases en el desarrollo de software. En ocasiones necesitarás desarrollar servicios, entender cómo funciona o realizar un implementación.
-No importa el lenguaje que manejes, lo importante es que tengas claros los conceptos y los puedas llevar a otro lenguaje de programación.
-Ahora los lenguajes de programación más populares, son los lenguajes interpretados, dinámicos y multiplataforma, como por ejemplo <strong><em>Python</em></strong>.</p>
+  	</div>
 
-<p>Otros elementos que me parecen importantes mencionar, son los conocimientos en la pila <strong><em>TCP/IP</em></strong>, si conoces cómo se transportan los datos y cómo se comportan las redes. Podrás implementar un diseño de red física o cloud de tal forma, que se adapte a la implementación de tu servicio.
-Para finalizar, es importante que tengas conocimientos sobre las diferentes bases de datos que se utilizan en el mercado tanto <strong><em>SQL</em></strong> como <strong><em>NOSQL</em></strong> y además tener clara las diferencias que abarcan las diferentes sentencias; De tal forma que si necesitas comunicarte con un administrador de base de datos, lo puedas hacer.
-Y por último debes conocer del diseño UML, diseño de patrones y tácticas arquitectónicas, de tal manera que puedas proponer una buena solución dependiendo de los requerimientos y recursos (hardware) para implementar tu servicio.</p>
+  	<div class="date">
+    	Publicado el 12/01/2021
+      
+   	</div>
 
-<p>Se que son muchas cosas, pero tranquil@s, trata de disfrutar cada proyecto y trabajo en el que te encuentres poco a poco irás descubriendo las tecnologías, no te desesperes como yo, disfrutemos de este proceso…</p>
+  <br>
+  <!--<a href="" class="read-more">Read More</a>-->
+  <!--
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
 
-<h2 id="raspberry-pi-y-docker">Raspberry Pi y Docker</h2>
+	    var disqus_shortname = 'jsgiraldoh';
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://collabnix.com/
-</code></pre></div></div>
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://k3s.io/
-</code></pre></div></div>
-
-<h2 id="video">Video</h2>
-
-<p>Te recomiendo que veas este video, podrás entender mucho de los proyectos de cloud computing y podrás enterarte de nuevas tecnologías.
-<br /><br /></p>
-
-<div class="youtube-wrapper">
-  <iframe src="https://www.youtube.com/embed/3GHGWoNzg4Q" allowfullscreen=""></iframe>
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-  </div>
+-->
 </article>
 
     </div>
