@@ -3,6 +3,8 @@ layout: page
 title: Tips
 permalink: /Tips/
 ---
+Les recomiendo que lean la siguiente presentación...
+
 [DevOps Fundations](https://issuu.com/johanse/docs/devops-fundations.pptx)
 
 Hola, no te preocupes si no tienes una computadora con muchos recursos para practicar; puedes entrar al siguiente enlace con tu cuenta de [Docker hub](/Blog/Docker-hub).
