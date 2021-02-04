@@ -133,15 +133,15 @@ software-properties-common
 
 <h2 id="3-agregue-la-clave-gpg-oficial-de-docker">3. Agregue la clave GPG oficial de Docker.</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-fsSL</span> https://download.docker.com/linux/ubuntu/gpg | <span class="nb">sudo </span>apt-key add –
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-fsSL</span> https://download.docker.com/linux/ubuntu/gpg | <span class="nb">sudo </span>apt-key add -
 </code></pre></div></div>
 
 <h2 id="4-agregar-los-repositorios-estables-de-docker">4. Agregar los repositorios estables de Docker.</h2>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository <span class="se">\</span>
 <span class="s2">"deb [arch=amd64] https://download.docker.com/linux/ubuntu </span><span class="se">\</span><span class="s2">
-</span><span class="si">$(</span>lsb_release <span class="nt">-cs</span><span class="si">)</span><span class="s2"> </span><span class="se">\ </span><span class="s2">stable“
-</span></code></pre></div></div>
+</span><span class="si">$(</span>lsb_release <span class="nt">-cs</span><span class="si">)</span><span class="s2"> </span><span class="se">\ </span><span class="s2">stable"</span>
+</code></pre></div></div>
 
 <h2 id="5-actualizar-los-paquetes-relacionados-con-los-repositorios-del-sistema">5. Actualizar los paquetes relacionados con los repositorios del sistema.</h2>
 
@@ -174,7 +174,7 @@ software-properties-common
   <li>Usar el siguiente comando:</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>usermod –aG docker ubuntu
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>usermod <span class="nt">-aG</span> docker ubuntu
 </code></pre></div></div>
 
 <h2 id="primer-contenedor">Primer contenedor</h2>
