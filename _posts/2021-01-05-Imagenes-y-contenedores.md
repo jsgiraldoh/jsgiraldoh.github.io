@@ -28,7 +28,7 @@ permalink: /Blog/Imágenes-y-contenedores/
 * Obtener comandos del módulo contenedores
 
 ```
-docker container –help
+docker container --help
 ```
 
 * Iniciar el contenedor hello-world
@@ -42,7 +42,7 @@ docker container run hello-world
 * Ayuda para eliminar contenedores
 
 ```
-docker container rm –help
+docker container rm --help
 ```
 
 * Ayuda para eliminar imágenes

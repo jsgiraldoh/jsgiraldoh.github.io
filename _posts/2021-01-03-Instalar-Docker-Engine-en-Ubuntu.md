@@ -22,7 +22,7 @@ software-properties-common
 ## 3. Agregue la clave GPG oficial de Docker.
 
 ```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 
 ## 4. Agregar los repositorios estables de Docker.
@@ -30,7 +30,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
 ```
 sudo add-apt-repository \
 "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-$(lsb_release -cs) \ stable“
+$(lsb_release -cs) \ stable"
 ```
 
 ## 5. Actualizar los paquetes relacionados con los repositorios del sistema.
@@ -63,7 +63,7 @@ docker info
 * Usar el siguiente comando:
 
 ```
-sudo usermod –aG docker ubuntu
+sudo usermod -aG docker ubuntu
 ```
 
 ## Primer contenedor

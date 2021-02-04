@@ -33,7 +33,7 @@ services:
 Utilizar los siguientes comandos:
 
 ```
-docker-compose up –d
+docker-compose up -d
 ```
 
 ```
