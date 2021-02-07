@@ -198,7 +198,7 @@ Armenia | Colombia
 				Administrar sistemas operativos linux/unix.<br>
 				Construir sistemas internos y scripting para automatización a escala.<br>
 				Manejar switches, routers, firewalls, VPN.<br>
-				Aplicar las mejores prácticas en seguridad IT.<br>
+				Aplicar las mejores prácticas en seguridad IT.<br><br>
 			</td>
 		</tr>
 	</tbody>
@@ -223,7 +223,7 @@ Armenia | Colombia
 			<td class="profile-table-info">
 				Participar en el proceso de construcción aplicando técnicas de ingeniería de software.<br>
 				Interpretar el diseño y realizar adaptaciones cuando sea necesario.<br>
-				Construir el código que dará lugar al producto resultante en base al diseño realizado, utilizando lenguajes y bases de datos.<br>
+				Construir el código que dará lugar al producto resultante en base al diseño realizado, utilizando lenguajes y bases de datos.<br><br>
 			</td>
 		</tr>
 	</tbody>
@@ -233,7 +233,7 @@ Armenia | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Otros :</td>
-			<td class="profile-table-info">Contrato por 5 meses en el 2015 y por 3 meses en el 2014 como Auxiliar de docencia, en la Universidad del Quindío.</td>
+			<td class="profile-table-info">Contrato por 5 meses en el 2015 y por 3 meses en el 2014 como Auxiliar de docencia, en la Universidad del Quindío.</td><br>
 		</tr>
 	</tbody>
 </table>
