@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Labs de Docker en Español
-permalink: /Laboratorios/
+permalink: /Labs/
 ---
 
 <div class="posts">
-  {% for post in site.labs %}
+  {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         <div class="entry">
