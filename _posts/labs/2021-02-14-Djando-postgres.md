@@ -16,7 +16,7 @@ Para este proyecto, necesita crear un **Dockerfile**, un **archivo de dependenci
 
 3.	Agregue el siguiente contenido al Dockerfile.
 
-```dockerfile=
+```
 FROM python:3
 
 ENV PYTHONUNBUFFERED=1
