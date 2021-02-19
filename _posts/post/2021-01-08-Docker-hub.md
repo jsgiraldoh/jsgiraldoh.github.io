@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker hub
+categories: post
 permalink: /Blog/Docker-hub
 ---
 * Docker Hub es un servicio proporcionado por Docker para encontrar y compartir imágenes de contenedores con su equipo. Proporciona las siguientes características principales:

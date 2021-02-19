@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ¿Qué es Docker?
+categories: post
 permalink: /Blog/Qué-es-Docker/
 ---
 * Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones. Docker le permite separar sus aplicaciones de su infraestructura para que pueda entregar el software rápidamente. Con Docker, puede administrar su infraestructura de la misma manera que administra sus aplicaciones. Al aprovechar las metodologías de Docker para enviar, probar e implementar código rápidamente, puede reducir significativamente el retraso entre escribir código y ejecutarlo en producción.

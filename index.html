@@ -4,7 +4,7 @@ layout: default
 
 <div class="home-recent-articles" >
   <h2>Publicaciones recientes</h2>
-  {% for post in site.posts limit: 14%}
+  {% for post in site.categories.post limit: 14%}
   <div>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </div>

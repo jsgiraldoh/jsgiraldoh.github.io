@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ¿Qué es docker-compose?
+categories: post
 permalink: /Blog/Qué-es-docker-compose
 ---
 * Compose es una herramienta para definir y ejecutar aplicaciones Docker de contenedores múltiples. Con Compose, utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, crea e inicia todos los servicios desde su configuración.

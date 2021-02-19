@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Instalar Docker Compose
+categories: post
 permalink: /Blog/Instalar-Docker-Compose/
 ---
 Ejecute este comando para descargar la versión estable actual de Docker Compose:

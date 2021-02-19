@@ -1,6 +1,9 @@
-Django-postgres
-===
-
+---
+layout: post
+title: Django-postgres
+categories: labs
+permalink: /Blog/Django-postgres/
+---
 **Inicio rápido: Compose y Django**
 
 Esta guía de inicio rápido demuestra cómo usar Docker Compose para configurar y ejecutar una aplicación Django / PostgreSQL simple. Antes de comenzar, [Instale-compose](https://jsgiraldoh.github.io/Blog/Instalar-Docker-Compose/).
@@ -94,7 +97,7 @@ Una vez que se crea **web** la imagen del servicio, Compose la ejecuta y ejecuta
 
 Una vez que se complete el comando **docker-compose**, enumere el contenido de su proyecto.
 
-<img src="img/ls-la.png" title="contenido" name="contenido"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres/ls-la.png" title="contenido" name="contenido"/><br>
 
 Si está ejecutando Docker en Linux, los archivos **django-admin** creados son propiedad de root. Esto sucede porque el contenedor se ejecuta como usuario root. Cambie la propiedad de los nuevos archivos.
 
@@ -104,7 +107,7 @@ sudo chown -R $USER:$USER .
 
 Si está ejecutando Docker en Mac o Windows, ya debería tener la propiedad de todos los archivos, incluidos los generados por **django-admin**. Enumere los archivos solo para verificar esto.
 
-<img src="img/ls-la.png" title="contenido" name="contenido"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres/ls-la.png" title="contenido" name="contenido"/><br>
 
 Conecta la base de datos
 ===
@@ -136,11 +139,11 @@ Esta configuración está determinada por la imagen de Docker de [postgres](http
 
 4. Ejecute el comando **docker-compose up** desde el directorio de nivel superior de su proyecto.
 
-<img src="img/docker-compose-up.png" title="docker-compose-up" name="docker-compose-up"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres/docker-compose-up.png" title="docker-compose-up" name="docker-compose-up"/><br>
 
 En este punto, su aplicación Django debería estar ejecutándose en el puerto 8000 de su host Docker. En Docker Desktop para Mac y Docker Desktop para Windows, vaya a http://localhost:8000 en un navegador web para ver la página de bienvenida de Django.
 
-<img src="img/django.png" title="django" name="django"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres/django.png" title="django" name="django"/><br>
 
 5. Enumere los contenedores en ejecución.
 
@@ -152,9 +155,11 @@ da3a09ce1c1d   django-postgres_web                     "python manage.py ru…" 
 9b62a081919d   postgres                                "docker-entrypoint.s…"   6 minutes ago       Up 4 seconds       5432/tcp                                                                                                   django-postgres_db_1
 ```
 
-## Más documentación
+## Referencia
 
-https://docs.docker.com/compose/django/
+[https://docs.docker.com/compose/django/](https://docs.docker.com/compose/django/)
+
+[https://github.com/jsgiraldoh/Django-postgres](https://github.com/jsgiraldoh/Django-postgres)
 
 Kubernets
 ===

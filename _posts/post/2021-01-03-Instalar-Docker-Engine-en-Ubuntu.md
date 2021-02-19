@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Instalar Docker Engine en Ubuntu
+categories: post
 permalink: /Blog/Instalar-Docker-Engine-en-Ubuntu/
 ---
 ## 1. Realizar una actualización.

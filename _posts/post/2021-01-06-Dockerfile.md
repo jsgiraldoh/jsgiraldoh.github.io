@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dockerfile
+categories: post
 permalink: /Blog/Dockerfile
 ---
 <br>

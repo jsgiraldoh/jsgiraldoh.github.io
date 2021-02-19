@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Estructura de comandos
+categories: post
 permalink: /Blog/Estructura-de-comandos/
 ---
 * Ayuda de docker:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Docker Registry
+categories: post
 permalink: /Blog/Docker-Registry
 ---
 ## ¿Qué es Docker Registry?

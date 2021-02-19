@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Archivo docker-compose
+categories: post
 permalink: /Blog/Archivo-docker-compose
 ---
 Crear la carpeta para el proyecto

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dockerfile buenas prácticas
+categories: post
 permalink: /Blog/Dockerfile-buenas-practicas
 ---
 ## Buenas prácticas en Dockerfile

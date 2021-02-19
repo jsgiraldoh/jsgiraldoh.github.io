@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Imágenes y contenedores
+categories: post
 permalink: /Blog/Imágenes-y-contenedores/
 ---
 ## Imágenes
