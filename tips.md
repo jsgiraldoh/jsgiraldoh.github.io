@@ -13,6 +13,10 @@ Hola, no te preocupes si no tienes una computadora con muchos recursos para prac
 https://labs.play-with-docker.com/
 ```
 
+```
+https://labs.play-with-k8s.com/
+```
+
 Como podemos observar en el siguiente link:
 
 ```
