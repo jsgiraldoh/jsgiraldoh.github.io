@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-mode="light">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -40,6 +40,9 @@
     })(window,document,'script','dataLayer','GTM-PMGL626');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- landing page scripts -->
+    <script defer src="/js/theme-switcher.js"></script>
+
     {% include analytics.html %}
   </head>
 
@@ -60,6 +63,7 @@
             <a href="{{ site.baseurl }}/Labs">Labs</a>
             <a href="{{ site.baseurl }}/Tips">Tips</a>
             <a href="{{ site.baseurl }}/Perfil">Perfil</a>
+            <!--<a>{% include theme-switch.html %}</a>-->
           </nav>
         </header>
       </div>
@@ -70,11 +74,9 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
 
     {% include scroll-to-top.html %}
