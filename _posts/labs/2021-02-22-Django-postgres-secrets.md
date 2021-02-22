@@ -61,11 +61,11 @@ secrets:
 
 En este punto, su aplicación Django debería estar ejecutándose en el puerto 8000 de su host Docker. En Docker Desktop para Mac y Docker Desktop para Windows, vaya a http://localhost:8000 en un navegador web para ver la página de bienvenida de Django.
 
-<img src="img/django.png" title="django" name="django"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres/django.png" title="django" name="django"/><br>
 
 Luego para verificar que la base de datos postgres, quedo bien configurada en el proyecto debemos dirigirnos al siguiente enlace, http://localhost:8000/admin. Esto nos debera mostrar la siguiente salida.
 
-<img src="img/admin.png" title="admin" name="admin"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres-secrets/admin.png" title="admin" name="admin"/><br>
 
 Si presenta algún incoveniente o error, debera ejecutar el siguiente comando; para que los scripts de administración preparen todos los elementos necesarios(tablas, sessiones, autorizaciones, etc) para su correcto funcionamiento.
 
@@ -77,7 +77,7 @@ Recuerde ejecutar este comando en el espacio de trabajo donde tienen los archivo
 
 Obtendrá una salida parecida a la siguiente **imagen**.
 
-<img src="img/migrate.png" title="migrate" name="migrate"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres-secrets/migrate.png" title="migrate" name="migrate"/><br>
 
 Luego de que tenga todos los elementos listos, podra crear el super usuario, el cual le permitira acceder a la parte administrativa.
 
@@ -85,13 +85,13 @@ Luego de que tenga todos los elementos listos, podra crear el super usuario, el 
 docker-compose run web python manage.py createsuperuser
 ```
 
-<img src="img/superuser.png" title="superuser" name="superuser"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres-secrets/superuser.png" title="superuser" name="superuser"/><br>
 
 Para este ejemplo, se uso como usuario **root** y contraseña **root**, el correo electronico tiene validaciones así que debe estar bien escrito.
 
 Por ultimo podra ingresar al portar con su usuario y contraseña y podra asegurarse de que todo quedo bien configurado.
 
-<img src="img/view-users.png" title="view-users" name="view-users"/><br>
+<img src="{{ site.baseurl }}/images/img-django-postgres-secrets/view-users.png" title="view-users" name="view-users"/><br>
 
 # Referencias
 
