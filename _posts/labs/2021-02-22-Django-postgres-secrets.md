@@ -105,7 +105,7 @@ Por ultimo podra ingresar al portar con su usuario y contraseña y podra asegura
 
 [https://docs.docker.com/compose/django/#more-compose-documentation](https://docs.docker.com/compose/django/#more-compose-documentation)
 
-[https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
+[https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres/)
 
 [https://kubernetes.io/es/docs/concepts/configuration/secret/](https://kubernetes.io/es/docs/concepts/configuration/secret/)
 
