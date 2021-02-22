@@ -28,7 +28,7 @@ Cuando concede acceso a un secreto a un servicio recién creado o en ejecución,
 
 Como podemos observar en el archivo Compose, configuramos la ```db``` contraseña en texto plano. Para evitar esto, podemos aprovechar los secretos de la ventana acoplable para almacenar la contraseña y compartirla de forma segura con los servicios que la necesiten. Podemos definir secretos y hacer referencia a ellos en los servicios como se muestra a continuación. La contraseña se almacena localmente en el ```project/db/password.txt``` archivo y se monta en los contenedores debajo ```/run/secrets/<secret-name>```.
 
-```dockerfile=
+```
 version: "3"
 
 services:
