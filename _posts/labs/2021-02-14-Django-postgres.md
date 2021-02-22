@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django-postgres
+title: Django-postgres-Parte-1
 categories: labs
 permalink: /Blog/Django-postgres/
 ---
@@ -155,11 +155,11 @@ da3a09ce1c1d   django-postgres_web                     "python manage.py ru…" 
 9b62a081919d   postgres                                "docker-entrypoint.s…"   6 minutes ago       Up 4 seconds       5432/tcp                                                                                                   django-postgres_db_1
 ```
 
+[Aquí](https://github.com/jsgiraldoh/Django-postgres.git) se puede encontrar una aplicación de ejemplo que ejercita todos los aspectos que se discutieron.
+
 ## Referencia
 
 [https://docs.docker.com/compose/django/](https://docs.docker.com/compose/django/)
-
-[https://github.com/jsgiraldoh/Django-postgres](https://github.com/jsgiraldoh/Django-postgres)
 
 Kubernets
 ===
@@ -175,3 +175,5 @@ kubectl apply -f 'archivo'
 ```
 kubectl port-forward --address 0.0.0.0 svc/my-service 8000 --namespace default
 ```
+
+Nota: Es importante tener en cuenta, que debe crear un directorio /code, donde se encuentren los archivos generados en el espacio de trabajo (composeexample/, requirements.txt, manage.py). Para que el cluster pueda montar bien el volumen y todo pueda funcionar correctamente.
