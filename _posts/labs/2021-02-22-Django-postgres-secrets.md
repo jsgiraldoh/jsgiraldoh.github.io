@@ -95,18 +95,18 @@ Por ultimo podra ingresar al portar con su usuario y contraseña y podra asegura
 
 # Referencias
 
-https://docs.docker.com/engine/swarm/secrets/#how-docker-manages-secrets
+[https://docs.docker.com/engine/swarm/secrets/#how-docker-manages-secrets](https://docs.docker.com/engine/swarm/secrets/#how-docker-manages-secrets)
 
-https://docs.docker.com/engine/swarm/secrets/#build-support-for-docker-secrets-into-your-images
+[https://docs.docker.com/engine/swarm/secrets/#build-support-for-docker-secrets-into-your-images](https://docs.docker.com/engine/swarm/secrets/#build-support-for-docker-secrets-into-your-images)
 
-https://www.docker.com/blog/containerized-python-development-part-2/
+[https://www.docker.com/blog/containerized-python-development-part-2/](https://www.docker.com/blog/containerized-python-development-part-2/)
 
-https://github.com/aiordache
+[https://github.com/aiordache](https://github.com/aiordache)
 
-https://docs.docker.com/compose/django/#more-compose-documentation
+[https://docs.docker.com/compose/django/#more-compose-documentation](https://docs.docker.com/compose/django/#more-compose-documentation)
 
-https://hub.docker.com/_/postgres
+[https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
 
-https://kubernetes.io/es/docs/concepts/configuration/secret/
+[https://kubernetes.io/es/docs/concepts/configuration/secret/](https://kubernetes.io/es/docs/concepts/configuration/secret/)
 
-https://mmorejon.io/blog/iniciar-proyecto-en-django-con-docker/
+[https://mmorejon.io/blog/iniciar-proyecto-en-django-con-docker/](https://mmorejon.io/blog/iniciar-proyecto-en-django-con-docker/)
