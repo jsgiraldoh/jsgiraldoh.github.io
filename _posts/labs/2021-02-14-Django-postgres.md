@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django-postgres-Parte-1
+title: Django postgres Parte 1
 categories: labs
 permalink: /Blog/Django-postgres/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django-postgres-secrets-Parte-2
+title: Django postgres secrets Parte 2
 categories: labs
 permalink: /Blog/Django-postgres-secrets/
 ---
