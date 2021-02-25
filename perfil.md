@@ -130,7 +130,7 @@ Armenia | Colombia
 			<td class="profile-table-info">
 				Participar en la construcción de software, específicamente el back-end utilizando como lenguaje de programación java y el framework spring boot.<br>
 				Creación de diferentes servicios Rest.<br>
-				Realizar pruebas unitarias y de integración, para cubrir la cobertura del código desarrollado <br><br>
+				Realizar pruebas unitarias y de integración, para cubrir la cobertura del código desarrollado.<br><br>
 			</td>
 		</tr>
 	</tbody>
