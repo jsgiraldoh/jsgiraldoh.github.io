@@ -4,6 +4,8 @@ title: Desplegar un servicio web con node.js y crear un contenedor que despligue
 categories: labs
 permalink: /Blog/Node-js-server-web-blog/
 ---
+
+
 JavaScript ha pasado de ser un lenguaje utilizado para brindar interactividad a las páginas web, a ser utilizado ahora también en el lado de los servidores gracias a Node.js. Si aún no tienes claro qué es Node.js, puedes revisar este artículo sobre [qué es Node.js](https://devcode.la/blog/que-es-nodejs/), donde aprenderás los conceptos básicos que necesitas saber sobre él. Dentro de Node, el código se organiza por módulos o paquetes, así que al momento de trabajar con él va a ser necesario agregar más módulos, es aquí donde entra npm, es el ecosistema más grande de librerías de código abierto en el mundo.
 
 Node.js permite crear un servidor web, para crearlo, vamos a utilizar NPM (Node Package Manager) y express.js un frawework web.
@@ -28,11 +30,11 @@ npm init
 
 Luego obtendra la siguiente salida y debera ingresar algunos datos, como muestra la siguiente imagen.
 
-<img src="images/img-Node-js-server-web-blog/npm-init.png" title="npm-init" name="npm-init"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/npm-init.png" title="npm-init" name="npm-init"/><br>
 
 **npm init** genera un archivo **package.json**
 
-<img src="images/img-Node-js-server-web-blog/package-json.png" title="package-json" name="package-json"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/package-json.png" title="package-json" name="package-json"/><br>
 
 Este fichero contiene la información anteriormente proporcionada y además se encarga de controlar los paquetes que instalamos para el proyecto. Por ejemplo, para poder crear nuestro servidor rápidamente, vamos a instalar un paquete llamado **express.js**
 
@@ -42,7 +44,7 @@ npm install express --save
 
 Este comando instala **express.js** y además actualiza nuestro archivo package.json gracias al parámetro --save
 
-<img src="images/img-Node-js-server-web-blog/express.png" title="express" name="express"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/express.png" title="express" name="express"/><br>
 
 Hay una parte importante que nos permitirá ver el funcionamiento del servidor web
 
@@ -64,11 +66,11 @@ node index.js
 
 Se observara el siguiente mensaje por consola
 
-<img src="images/img-Node-js-server-web-blog/index-js.png" title="index-js" name="index-js"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/index-js.png" title="index-js" name="index-js"/><br>
 
 Por último, abrir el navegador web y se obtendra el index.html, utilizando ```http://localhost:8080``` o ```http://localhost:8080/index.html```
 
-<img src="images/img-Node-js-server-web-blog/localhost.png" title="localhost" name="localhost"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/localhost.png" title="localhost" name="localhost"/><br>
 
 Crea un Dockerfile para Node.js
 ===
@@ -139,7 +141,7 @@ docker run --name=node-js-server-web-blog -p 8080:8080 -d node-js-server-web-blo
 
 Abrir el navegador web y se obtendra el index.html, utilizando ```http://localhost:8080``` o ```http://localhost:8080/index.html```
 
-<img src="images/img-Node-js-server-web-blog/localhost.png" title="localhost" name="localhost"/><br>
+<img src="{{ site.baseurl }}/images/img-Node-js-server-web-blog/localhost.png" title="localhost" name="localhost"/><br>
 
 [Aquí](https://github.com/jsgiraldoh/Node-js-server-web-blog.git) se puede encontrar una aplicación de ejemplo que ejercita todos los aspectos que se discutieron.
 
