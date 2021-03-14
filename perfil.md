@@ -7,7 +7,7 @@ permalink: /Perfil/
 ## Información General
 <p class="profile-description">Ingeniero de sistemas y computación. Certified Ethical Hacker.
 <br>
-Armenia | Colombia
+Armenia | Quindío | Colombia
 </p>
 
 <table class="profile-table">
