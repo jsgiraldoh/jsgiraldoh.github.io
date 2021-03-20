@@ -26,3 +26,7 @@ permalink: /Blog/Qué-es-docker-compose
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Docker-compose](https://issuu.com/johanse/docs/seccion-10-que-es-docker-compose.pptx)
+
+## Video
+
+{% include youtube.html id='C3g3_0bbr20' %}

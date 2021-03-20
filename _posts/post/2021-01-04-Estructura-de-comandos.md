@@ -42,3 +42,7 @@ docker system df
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Estructura de comandos](https://issuu.com/johanse/docs/seccion-3-estructura-de-comandos.pptx)
+
+## Video
+
+{% include youtube.html id='hohMvLG54bg' %}

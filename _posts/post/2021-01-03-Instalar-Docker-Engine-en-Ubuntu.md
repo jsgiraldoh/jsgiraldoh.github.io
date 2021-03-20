@@ -88,3 +88,11 @@ docker container run hello-world
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Instalar Docker Engine en Ubuntu](https://issuu.com/johanse/docs/seccion-2-instalacion-de-docker.pptx)
+
+## Video
+
+{% include youtube.html id='3p-6Zi6g_jc' %}
+
+## Video
+
+{% include youtube.html id='fhU8JIKq9LU' %}

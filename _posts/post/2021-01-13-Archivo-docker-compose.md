@@ -50,3 +50,7 @@ docker-compose ps
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Archivo docker-compose](https://issuu.com/johanse/docs/seccion-12-archivo-docker-compose.pptx)
+
+## Video
+
+{% include youtube.html id='HhhFpa4ZrpA' %}

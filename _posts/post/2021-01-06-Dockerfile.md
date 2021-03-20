@@ -84,3 +84,7 @@ Permite conocer de una imagen el conjunto de instrucciones que fueron ejecutadas
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Dockerfile](https://issuu.com/johanse/docs/seccion-5-dockerfile.pptx)
+
+## Video
+
+{% include youtube.html id='zh8ITCWVAIM' %}

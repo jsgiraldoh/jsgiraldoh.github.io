@@ -42,10 +42,6 @@ permalink: /Blog/Qué-es-Docker/
 	</div>
 </div>
 
-## Video
-
-{% include youtube.html id='UuZl1iKK14E' %}
-
 ### Referencias
 
 * Resumen de docker. Disponible en: [Docker overview](https://docs.docker.com/get-started/overview/)
@@ -55,3 +51,7 @@ permalink: /Blog/Qué-es-Docker/
 Puedes ver toda la información de esta sección del blog, en una diapositiva para que la compartas en tú salón de clase.
 
 * [Qué es Docker](https://issuu.com/johanse/docs/seccion-1-que-es-docker.pptx)
+
+## Video
+
+{% include youtube.html id='5RAZ9XuYac0' %}
