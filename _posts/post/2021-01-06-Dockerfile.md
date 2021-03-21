@@ -85,6 +85,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Dockerfile](https://issuu.com/johanse/docs/seccion-5-dockerfile.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='zh8ITCWVAIM' %}
+
+<br>

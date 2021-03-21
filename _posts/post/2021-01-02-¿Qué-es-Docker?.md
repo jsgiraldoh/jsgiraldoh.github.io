@@ -52,6 +52,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Qué es Docker](https://issuu.com/johanse/docs/seccion-1-que-es-docker.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='5RAZ9XuYac0' %}
+
+<br>

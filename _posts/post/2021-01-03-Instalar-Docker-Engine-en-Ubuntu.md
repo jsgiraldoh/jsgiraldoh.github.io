@@ -89,10 +89,14 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Instalar Docker Engine en Ubuntu](https://issuu.com/johanse/docs/seccion-2-instalacion-de-docker.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='3p-6Zi6g_jc' %}
 
-## Video
+<br>
+
+## VIDEO
 
 {% include youtube.html id='fhU8JIKq9LU' %}
+
+<br>

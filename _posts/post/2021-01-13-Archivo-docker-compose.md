@@ -51,6 +51,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Archivo docker-compose](https://issuu.com/johanse/docs/seccion-12-archivo-docker-compose.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='HhhFpa4ZrpA' %}
+
+<br>

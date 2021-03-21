@@ -43,6 +43,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Estructura de comandos](https://issuu.com/johanse/docs/seccion-3-estructura-de-comandos.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='hohMvLG54bg' %}
+
+<br>

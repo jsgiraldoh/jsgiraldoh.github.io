@@ -37,6 +37,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Docker hub](https://issuu.com/johanse/docs/seccion-7-docker-hub.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='ZtoKvsWg0SQ' %}
+
+<br>

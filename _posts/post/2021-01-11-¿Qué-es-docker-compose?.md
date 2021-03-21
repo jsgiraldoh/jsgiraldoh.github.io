@@ -27,6 +27,8 @@ Puedes ver toda la información de esta sección del blog, en una diapositiva pa
 
 * [Docker-compose](https://issuu.com/johanse/docs/seccion-10-que-es-docker-compose.pptx)
 
-## Video
+## VIDEO
 
 {% include youtube.html id='C3g3_0bbr20' %}
+
+<br>
