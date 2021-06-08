@@ -233,12 +233,29 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Otros :</td>
-			<td class="profile-table-info">Contrato por 5 meses en el 2015 y por 3 meses en el 2014 como Auxiliar de docencia, en la Universidad del Quindío.</td><br>
+			<td class="profile-table-info">Contrato por 5 meses en el 2015 y por 3 meses en el 2014 como Auxiliar de docencia, en la Universidad del Quindío.</td>
 		</tr>
 	</tbody>
 </table>
 
 ## Educación
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">2021</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Título :</td>
+			<td class="profile-table-info">Cloud & DevOps: Transformación Continua</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Expedido por :</td>
+			<td class="profile-table-info"><a href="https://professional.mit.edu/course-catalog" target="_blank">MIT Professional Education</a></td>
+		</tr>
+	</tbody>
+</table>
 
 <table class="profile-table">
 	<tbody>
