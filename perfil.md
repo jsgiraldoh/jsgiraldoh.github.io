@@ -5,7 +5,7 @@ permalink: /Perfil/
 ---
 
 ## Información General
-<p class="profile-description">Ingeniero de sistemas y computación. Certified Ethical Hacker.
+<p class="profile-description">Ingeniero de sistemas y computación. Red Hat Certified System Administrator. Certified Ethical Hacker.
 <br>
 Armenia | Quindío | Colombia
 </p>
