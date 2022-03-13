@@ -144,7 +144,7 @@ Armenia | Quindío | Colombia
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Consultec-TI</td>
+			<td class="profile-table-info"><a href="https://www.consultec-ti.com/" target="_blank">Consultec-TI</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
@@ -196,7 +196,7 @@ Armenia | Quindío | Colombia
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Sumset</td>
+			<td class="profile-table-info"><a href="https://www.sumset.com/" target="_blank">Sumset</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
