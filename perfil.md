@@ -109,9 +109,9 @@ Armenia | Quindío | Colombia
 		</tr>
 			<td class="profile-table-header">Actividades :</td>
 			<td class="profile-table-info">
-				Participar activamente en la coordinación y ejecución de proyectos de mediano y largo plazo. Se debe tener la capacidad de estimar el tiempo y los recursos necesarios para hacer avanzar los productos y servicios ofrecidos por la empresa.
-				Ser un participante activo en la determinación de la arquitectura / implementación, asegurando que todos los componentes involucrados en la arquitectura estén adecuadamente integrados en la solución y funcionen como se espera.
-				Ejecutar las nuevas implementaciones / actualizaciones / desarrollos a medida del cliente, y mantener un contacto técnico constante.
+				Participar activamente en la coordinación y ejecución de proyectos de mediano y largo plazo. Se debe tener la capacidad de estimar el tiempo y los recursos necesarios para hacer avanzar los productos y servicios ofrecidos por la empresa.<br>
+				Ser un participante activo en la determinación de la arquitectura / implementación, asegurando que todos los componentes involucrados en la arquitectura estén adecuadamente integrados en la solución y funcionen como se espera.<br>
+				Ejecutar las nuevas implementaciones / actualizaciones / desarrollos a medida del cliente, y mantener un contacto técnico constante.<br>
 				Ser un escalamiento de segundo / tercer nivel técnico para el área del equipo de soporte para garantizar la estabilidad de las plataformas de nuestros clientes.
 				Diseñar y desarrollar herramientas para automatizar tareas y procesos.<br><br>
 			</td>
@@ -177,11 +177,11 @@ Armenia | Quindío | Colombia
 			<td class="profile-table-header">Actividades :</td>
 			<td class="profile-table-info">
 				Encargado de la codificación, la reingeniería de procesos para la administración ágil de sistemas y la colaboración con equipos de trabajo de operaciones y desarrollo.
-				Trabajar con el personal de TI para supervisar los lanzamientos de código, con el objetivo de acelerar el proceso de desarrollo.
-				Realizar una monitorización continua del ciclo de vida del desarrollo de software y saber cómo administrar la infraestructura TI que se necesita para implementar el código de software en entornos de Cloud Computing.
-				Organización de todos los elementos que intervienen en el proyecto (técnicos de análisis, diseño y programadores, usuarios, equipamiento).
-				Participación en equipos de diseño para garantizar el cumplimiento de los planes elaborados.
-				Diseñar los documentos de utilización manual o manual automatizada, que requiere el sistema.
+				Trabajar con el personal de TI para supervisar los lanzamientos de código, con el objetivo de acelerar el proceso de desarrollo.<br>
+				Realizar una monitorización continua del ciclo de vida del desarrollo de software y saber cómo administrar la infraestructura TI que se necesita para implementar el código de software en entornos de Cloud Computing.<br>
+				Organización de todos los elementos que intervienen en el proyecto (técnicos de análisis, diseño y programadores, usuarios, equipamiento).<br>
+				Participación en equipos de diseño para garantizar el cumplimiento de los planes elaborados.<br>
+				Diseñar los documentos de utilización manual o manual automatizada, que requiere el sistema.<br>
 				Estudio de necesidades del sistema y proponer el software necesario para su aplicación.<br><br>
 			</td>
 		</tr>
