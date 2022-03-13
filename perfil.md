@@ -47,7 +47,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Plataformas</td>
-			<td class="profile-table-info">AWS y GCP</td>
+			<td class="profile-table-info">AWS y Digital Ocean</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Arquitecturas</td>
@@ -131,7 +131,7 @@ Armenia | Quindío | Colombia
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
-			<td class="profile-table-info">Docente catedrático</td>
+			<td class="profile-table-info">Docente catedrático<br><br></td>
 		</tr>
 	</tbody>
 </table>
