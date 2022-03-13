@@ -14,11 +14,15 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
-			<td class="profile-table-info">Ingeniero DevOps en <a href="http://www.tcmideas.co/" target="_blank">TCM</a></td>
+			<td class="profile-table-info">Professional Service Consultant en <a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
 		</tr>
 		<tr>
-			<td class="profile-table-header">Anterior:</td>
-			<td class="profile-table-info">Ingeniero de Software en <a href="https://www.sumset.com/" target="_blank">Sumset</a></td>
+			<td class="profile-table-header">Actual:</td>
+			<td class="profile-table-info">Docente catedrático en <a href="https://www.uniquindio.edu.co/" target="_blank">Uniquindio</a></td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Actual:</td>
+			<td class="profile-table-info">Ingeniero DevOps en <a href="http://www.tcmideas.co/" target="_blank">TCM</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -92,6 +96,73 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">oct. 2021 - actualidad</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Empleador :</td>
+			<td class="profile-table-info">Intraway</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Cargo :</td>
+			<td class="profile-table-info">Professional Service Consultant</td>
+		<tr>
+		</tr>
+			<td class="profile-table-header">Actividades :</td>
+			<td class="profile-table-info">
+				Participar activamente en la coordinación y ejecución de proyectos de mediano y largo plazo. Se debe tener la capacidad de estimar el tiempo y los recursos necesarios para hacer avanzar los productos y servicios ofrecidos por la empresa.
+				Ser un participante activo en la determinación de la arquitectura / implementación, asegurando que todos los componentes involucrados en la arquitectura estén adecuadamente integrados en la solución y funcionen como se espera.
+				Ejecutar las nuevas implementaciones / actualizaciones / desarrollos a medida del cliente, y mantener un contacto técnico constante.
+				Ser un escalamiento de segundo / tercer nivel técnico para el área del equipo de soporte para garantizar la estabilidad de las plataformas de nuestros clientes.
+				Diseñar y desarrollar herramientas para automatizar tareas y procesos.<br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">sep. 2021 - actualidad</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Empleador :</td>
+			<td class="profile-table-info">Universidad del Quindío</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Cargo :</td>
+			<td class="profile-table-info">Docente catedrático</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">jun. 2021 - sep. 2021</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Empleador :</td>
+			<td class="profile-table-info">Consultec-TI</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Cargo :</td>
+			<td class="profile-table-info">Consultor DevOps</td>
+		<tr>
+		</tr>
+			<td class="profile-table-header">Actividades :</td>
+			<td class="profile-table-info">
+				Compartiendo la filosofía DevOps, entre los diferentes equipos e involucrados, en el ciclo de desarrollo de software.<br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
 			<td class="profile-table-info">jun. 2020 - actualidad</td>
 		</tr>
 		<tr>
@@ -105,7 +176,13 @@ Armenia | Quindío | Colombia
 		</tr>
 			<td class="profile-table-header">Actividades :</td>
 			<td class="profile-table-info">
-				Compartiendo la filosofía DevOps, entre los diferentes equipos e involucrados, en el ciclo de desarrollo de software.<br><br>
+				Encargado de la codificación, la reingeniería de procesos para la administración ágil de sistemas y la colaboración con equipos de trabajo de operaciones y desarrollo.
+				Trabajar con el personal de TI para supervisar los lanzamientos de código, con el objetivo de acelerar el proceso de desarrollo.
+				Realizar una monitorización continua del ciclo de vida del desarrollo de software y saber cómo administrar la infraestructura TI que se necesita para implementar el código de software en entornos de Cloud Computing.
+				Organización de todos los elementos que intervienen en el proyecto (técnicos de análisis, diseño y programadores, usuarios, equipamiento).
+				Participación en equipos de diseño para garantizar el cumplimiento de los planes elaborados.
+				Diseñar los documentos de utilización manual o manual automatizada, que requiere el sistema.
+				Estudio de necesidades del sistema y proponer el software necesario para su aplicación.<br><br>
 			</td>
 		</tr>
 	</tbody>
