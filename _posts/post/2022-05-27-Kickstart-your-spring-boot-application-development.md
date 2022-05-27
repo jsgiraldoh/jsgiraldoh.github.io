@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kickstart your spring boot application development
+title: Kickstart Your Spring Boot Application Development
 categories: post
 permalink: /Blog/Kickstart-your-spring-boot-application-development/
 ---
