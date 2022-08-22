@@ -14,7 +14,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
-			<td class="profile-table-info">Professional Service Consultant en <a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
+			<td class="profile-table-info">Service Engineer en <a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
