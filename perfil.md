@@ -14,7 +14,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
-			<td class="profile-table-info">Service Engineer en <a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
+			<td class="profile-table-info">Líder DevOps en <a href="https://www.techandsolve.com/" target="_blank">Tech and Solve</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
@@ -96,11 +96,34 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">oct. 2022 - actualidad</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Empleador :</td>
+			<td class="profile-table-info">Tech and Solve</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Cargo :</td>
+			<td class="profile-table-info">Líder DevOps</td>
+		<tr>
+		</tr>
+			<td class="profile-table-header">Actividades :</td>
+			<td class="profile-table-info">
+				Definir estratégicamente la implementación de una cultura DevOps en las áreas de TI de una organización, a través de procesos y el uso de tecnología sobre el ciclo de vida de desarrollo y entrega de software, con el fin de agilizar la comercialización de software con calidad.<br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
 			<td class="profile-table-info">oct. 2021 - actualidad</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Intraway</td>
+			<td class="profile-table-info">Intraway<a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
