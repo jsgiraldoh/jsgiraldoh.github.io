@@ -123,7 +123,7 @@ Armenia | Quindío | Colombia
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Intraway<a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
+			<td class="profile-table-info"><a href="https://www.intraway.com/" target="_blank">Intraway</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
