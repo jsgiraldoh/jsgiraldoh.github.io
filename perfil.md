@@ -119,7 +119,7 @@ Armenia | Quindío | Colombia
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info"><a href="https://www.techandsolve.com/" target="_blank"</a>Tech and Solve</td>
+			<td class="profile-table-info"><a href="https://www.techandsolve.com/" target="_blank">Tech and Solve</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
