@@ -14,11 +14,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
-			<td class="profile-table-info">Líder DevOps en <a href="https://www.techandsolve.com/" target="_blank">Tech and Solve</a></td>
-		</tr>
-		<tr>
-			<td class="profile-table-header">Actual:</td>
-			<td class="profile-table-info">Docente catedrático en <a href="https://www.uniquindio.edu.co/" target="_blank">Uniquindio</a></td>
+			<td class="profile-table-info">Cloud Support Engineer en <a href="https://whitestack.com/es/inicio/" target="_blank">WhiteStack</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Actual:</td>
@@ -96,11 +92,34 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
+			<td class="profile-table-info">may. 2023 - actualidad</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Empleador :</td>
+			<td class="profile-table-info">WhiteStack</td>
+		</tr>
+		<tr>
+			<td class="profile-table-header">Cargo :</td>
+			<td class="profile-table-info">Cloud Support Engineer</td>
+		<tr>
+		</tr>
+			<td class="profile-table-header">Actividades :</td>
+			<td class="profile-table-info">
+				El Support Engineer tiene la misión de garantizar el cumplimiento de nivel de servicio (SLAs) comprometido con los clientes, dando solución oportuna a los requerimientos e incidencias para todos nuestros proyectos en Latam. Son responsables de dar el primer y segundo nivel de soporte frente a necesidades de configuración y solución de problemas técnicos que requieran de atención inmediata, canalizando solicitudes hacia niveles superiores de soporte de acuerdo a los protocolos internos definidos. Asimismo, son responsables de hacer pruebas y laboratorios replicando situaciones de problemas o troubleshooting a nivel de servidores y networking, de modo que nos podamos anticipar a problemas y sus soluciones.<br><br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="profile-table">
+	<tbody>
+		<tr>
+			<td class="profile-table-header">Fechas :</td>
 			<td class="profile-table-info">oct. 2022 - actualidad</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Tech and Solve</td>
+			<td class="profile-table-info"><a href="https://www.techandsolve.com/" target="_blank"Tech and Solve</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
@@ -146,11 +165,11 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
-			<td class="profile-table-info">sep. 2021 - actualidad</td>
+			<td class="profile-table-info">sep. 2021 - ene. 2023</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
-			<td class="profile-table-info">Universidad del Quindío</td>
+			<td class="profile-table-info"><a href="https://www.uniquindio.edu.co/" target="_blank">Universidad del Quindío</a></td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Cargo :</td>
