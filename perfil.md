@@ -115,7 +115,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
-			<td class="profile-table-info">oct. 2022 - actualidad</td>
+			<td class="profile-table-info">oct. 2022 - may. 2020</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
@@ -138,7 +138,7 @@ Armenia | Quindío | Colombia
 	<tbody>
 		<tr>
 			<td class="profile-table-header">Fechas :</td>
-			<td class="profile-table-info">oct. 2021 - actualidad</td>
+			<td class="profile-table-info">oct. 2021 - oct. 2022</td>
 		</tr>
 		<tr>
 			<td class="profile-table-header">Empleador :</td>
